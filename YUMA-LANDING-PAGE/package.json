@@ -1,0 +1,16 @@
+{
+  "name": "YUMA-LANDING-PAGE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./yuma.css -o ./css/main.css",
+     "watch": "tailwindcss -i ./yuma.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}

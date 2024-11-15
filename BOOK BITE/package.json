@@ -1,0 +1,13 @@
+{
+  "name": "book-bite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./bite.css -o ./css/Bite.css",
+    "watch": "tailwindcss -i ./bite.css -o ./css/Bite.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

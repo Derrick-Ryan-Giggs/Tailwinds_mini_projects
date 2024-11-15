@@ -1,0 +1,13 @@
+{
+  "name": "iot-solutions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./iot.css -o ./css/IOT.css",
+    "watch": "tailwindcss -i ./iot.css -o ./css/IOT.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

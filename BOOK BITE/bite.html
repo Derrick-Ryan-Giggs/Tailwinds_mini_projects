@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Bite.css">
+    <title>BOOK BITE</title>
+    <style>
+        body{
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-white">
+
+<!--nav-->
+<nav class="flex items-center justify-between px-4 py-5">
+    <div class="text-xl font-semibold">Book Bite</div>
+    <div class="hidden md:flex space-x-6 items-center justify-around">
+        <a href="#" class="text-gray-600 hover:text-gray-900">Collections</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900">BestSellers</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900">New Arrivals</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900">Genres</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900">Reviews</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900">Collections</a>
+       
+    </div>
+    <div class="flex items-end">
+         <button class="px-4 py-2 bg-cyan-100 rounded-lg hover:bg-cyan-200 transition-colors">Contact Us</button></div>
+</nav>
+
+<!--hero-->
+<main class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row items-center gap-8 py-12">
+        <!--left content-->
+        <div class="w-full md:w-1/2 space-y-6">
+            <div class="inline-flex items-center bg-yellow-100 rounded-full px-4 py-2 text-sm text-blue-500">
+                <span class="mr-2">$</span>90% of readers finish a book within two weeks
+            </div>
+            <h1 class="text-4xl md;text-5xl lg:text-6xl font-bold leading-tight">
+                Uncover stories that Inspire, Teach and Transform
+            </h1>
+            <p class="text-lg text-gray-600">
+                Explore a curated collection of books across genres, designed to elevate your mind and feed your imagination
+            </p>
+
+            <div class=" flex flex-col sm:flex-row gap-4">
+                <button class="px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors">Start Reading</button>
+
+                <button class="px-6 py-3 bg-cyan-50 text-black rounded-lg hover:bg-cyan-100transition-colors">Browse collection</button>
+            </div>
+
+            <div class="flex items-center gap-2 text-sm text-gray-600">
+                <div class="flex space-x-2">
+                    <div class="w-8 h-8 bg-gray-200 rounded-full border-2 border-white"></div>
+                    <div class="w-8 h-8 bg-gray-300 rounded-full border-2 border-white"></div>
+                    <div class="w-8 h-8 bg-gray-400 rounded-full border-2 border-white"></div>
+                </div>
+                Thousands of titles available, handpicked by experts
+            </div>
+
+        </div>
+
+        <!--right content-->
+<div class="w-full md:w-1/2 relative">
+    <img src="" alt="young reader" class="rounded-2xl w-full object-cover bg-orange-600">
+
+    <!--genre selection card-->
+    <div class="absolute top-1/4 -left-8 bg-white rounded-lg shadow-lg p-4 md:-translate-x-1/4">
+        <h3 class="font-medium mb-3">Select Genre</h3>
+        <div class="space-y-3">
+            <label class="flex items-center gap-2">
+                <input type="radio" name="genre" class="text-blue-600"><span>Kids and Preteens</span>
+            </label>
+
+            <label class="flex items-center gap-2">
+                <input type="radio" name="genre" class="text-blue-600"><span>Fantasy</span>
+            </label>
+
+        </div>
+    </div>
+
+    <!--stats-->
+<div class="absolute bottom-1/4 -right-8 md:translate-x-1/4 bg-green-200 rounded-lg p-6">
+    <div class="text-6xl font-bold">95%</div>
+    <p class="text-sm mt-2 max-w-[200px]">of readers found their next favourite book within</p>
+</div>
+</div>
+
+    </div>
+</main>
+
+</body>
+</html>

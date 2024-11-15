@@ -1,0 +1,13 @@
+{
+  "name": "autoshot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./autoshot.css -o ./css/Autoshot.css",
+     "watch": "tailwindcss -i ./autoshot.css -o ./css/Autoshot.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

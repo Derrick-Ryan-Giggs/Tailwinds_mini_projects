@@ -1,0 +1,16 @@
+{
+  "name": "YCCOMBINATOR",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i ./YC.css -o ./css/yc.css",
+    "watch": "tailwind -i ./YC.css -o ./css/yc.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
